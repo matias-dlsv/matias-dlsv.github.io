@@ -1,0 +1,25 @@
+h1{
+    color: rgb(252, 96, 221);
+    background-color: black;
+}
+
+figure{
+    position: relative;
+    top: -160px;
+    left: 900px;
+}
+figcaption{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 398px;
+    font-size: medium;
+
+}
+ol{
+    font-size: large;
+}
+
+
+body {
+    background-color: lightblue; }
