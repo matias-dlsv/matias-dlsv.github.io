@@ -1,25 +1,82 @@
-h1{
+h1 {
+    font-family: 'Public Pixel', fantasy;
     color: rgb(252, 96, 221);
-    background-color: black;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: none;
+    margin-top: 50px; /* Añadido margen superior */
 }
 
-figure{
-    position: relative;
-    top: -160px;
-    left: 900px;
+h3, h4 {
+    color: #ffffff;
+    font-family: 'Public Pixel', fantasy;
 }
-figcaption{
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    width: 398px;
-    font-size: medium;
 
+h4 {
+    font-size: small;
+    margin-bottom: 20px; /* Añadido margen inferior */
 }
-ol{
+
+section {
+    margin: 20px;
+}
+
+figure {
+    text-align: center; /* Centra la imagen */
+    margin-top: 20px;
+}
+
+ol {
     font-size: large;
 }
 
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    color: rgb(252, 96, 221);
+}
+
+td {
+    background-color: #ededed;
+    color: rgb(0, 0, 0);
+}
 
 body {
-    background-color: lightblue; }
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+}
+
+#githubpng {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#links {
+    text-align: center;
+    margin-top: 20px;
+}
