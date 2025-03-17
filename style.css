@@ -43,11 +43,15 @@ table {
 th, td {
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
+    font-family: 'Public Pixel', fantasy;
+    height: 40px;
+    
 }
 
 th {
     background-color: #000000;
-    color: rgb(252, 96, 221);
+    color: rgb(252, 96, 221)
+    ;
 }
 
 td {
@@ -79,4 +83,24 @@ body {
 #links {
     text-align: center;
     margin-top: 20px;
+}
+#hobbies {
+    text-align: center;
+    margin: 30px auto;
+    width: 60%;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hobbies li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-family: 'Public Pixel', fantasy;
+    color: #ffffff;
+    font-size: medium;
 }
