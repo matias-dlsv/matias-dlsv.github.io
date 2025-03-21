@@ -4,7 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
         anchor.addEventListener("click", function(event) {
             event.preventDefault();
             const targetId = this.getAttribute("href").substring(1);
-            document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+            const targetElement = document.getElementById(targetId);
+            const navbarHeight = document.querySelector('.navbar').offsetHeight; 
+            const targetPosition = targetElement.offsetTop - navbarHeight; 
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
         });
     });
 });

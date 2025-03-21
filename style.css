@@ -50,9 +50,9 @@ th, td {
 
 th {
     background-color: #000000;
-    color: rgb(252, 96, 221)
-    ;
+    color: rgb(252, 96, 221); /* Corregido el punto y coma */
 }
+
 
 td {
     background-color: #ededed;
@@ -60,7 +60,7 @@ td {
 }
 
 body {
-    background-image: url('image.png');
+    background-image: url('images/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -71,6 +71,10 @@ body {
     background-blend-mode: overlay;
     margin: 0;
     padding: 0;
+}
+table thead {
+    background-color: black;  
+    color: #ededed;             
 }
 
 #githubpng {
@@ -103,4 +107,9 @@ body {
     font-family: 'Public Pixel', fantasy;
     color: #ffffff;
     font-size: medium;
+}
+
+.carousel {
+    max-width: 400px; /* Ajusta este valor a tu gusto */
+    margin: 0 auto;   /* Centra el carrusel */
 }
