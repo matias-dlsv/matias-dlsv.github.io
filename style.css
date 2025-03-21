@@ -50,9 +50,9 @@ th, td {
 
 th {
     background-color: #000000;
-    color: rgb(252, 96, 221); /* Corregido el punto y coma */
+    color: rgb(252, 96, 221)
+    ;
 }
-
 
 td {
     background-color: #ededed;
@@ -72,10 +72,7 @@ body {
     margin: 0;
     padding: 0;
 }
-table thead {
-    background-color: black;  
-    color: #ededed;             
-}
+
 
 #githubpng {
     width: 100px;
@@ -90,7 +87,9 @@ table thead {
 }
 #hobbies {
     text-align: center;
-    margin: 30px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
     width: 60%;
 }
 
@@ -110,6 +109,6 @@ table thead {
 }
 
 .carousel {
-    max-width: 400px; /* Ajusta este valor a tu gusto */
-    margin: 0 auto;   /* Centra el carrusel */
+    max-width: 500px; /* Cambia esto según el tamaño que quieras */
+    margin: 0 auto; /* Centra el carrusel */
 }
